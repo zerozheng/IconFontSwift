@@ -23,6 +23,7 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Um-7e-DwT">
                                 <rect key="frame" x="166.5" y="120" width="42" height="21"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -40,18 +41,28 @@
                                     <constraint firstAttribute="width" constant="80" id="si3-dZ-yLQ"/>
                                 </constraints>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pdW-9b-hjr">
+                                <rect key="frame" x="162.5" y="494" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="Roi-Ae-QDx"/>
+                                    <constraint firstAttribute="height" constant="50" id="sbM-8x-atb"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="g9Q-jF-JQF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8Zs-JQ-Ok8"/>
                             <constraint firstItem="PdN-c9-QtH" firstAttribute="top" secondItem="g9Q-jF-JQF" secondAttribute="bottom" constant="50" id="FOG-5S-4VU"/>
                             <constraint firstItem="5Um-7e-DwT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ma7-br-hn9"/>
+                            <constraint firstItem="pdW-9b-hjr" firstAttribute="top" secondItem="PdN-c9-QtH" secondAttribute="bottom" constant="20" id="RyH-nT-GfM"/>
                             <constraint firstItem="PdN-c9-QtH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="a1P-X4-Yla"/>
                             <constraint firstItem="g9Q-jF-JQF" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="bTM-Tz-Tru"/>
                             <constraint firstItem="5Um-7e-DwT" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="100" id="eS1-rP-jDD"/>
+                            <constraint firstItem="pdW-9b-hjr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lGc-1N-V1R"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="bottomImageView" destination="pdW-9b-hjr" id="B6h-6M-KTg"/>
                         <outlet property="imageView" destination="PdN-c9-QtH" id="oxG-kf-Ag5"/>
                         <outlet property="midLabel" destination="g9Q-jF-JQF" id="gcI-D5-SIT"/>
                         <outlet property="topLabel" destination="5Um-7e-DwT" id="vSA-Uw-X5M"/>
@@ -59,6 +70,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="24.800000000000001" y="34.632683658170919"/>
         </scene>
     </scenes>
 </document>

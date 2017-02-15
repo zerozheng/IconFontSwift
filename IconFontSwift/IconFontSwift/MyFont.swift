@@ -10,10 +10,12 @@ import Foundation
 
 class MyFont: IconFont {
     
+    //**注意**：字体名字,它跟字体文件名是不一样的
     override var fontName: String {
         return "iconfont"
     }
     
+    //字体文件名
     override var fileName: String {
         return "ZZIconFont"
     }
@@ -30,5 +32,4 @@ class MyFont: IconFont {
     override var icons: [String : String] {
         return ["cart":"\u{e6af}", "delete_fill":"\u{e6a6}"]
     }
-    
 }

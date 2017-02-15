@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 
-protocol IconFontCompatible {
+public protocol IconFontCompatible {
     
     //字体名字 跟 文件名字 是不一样的
     var fontName: String {get}
@@ -23,43 +23,6 @@ protocol IconFontCompatible {
 }
 
 
-open class IconFont: IconFontCompatible {
-    
-    open var fontName: String {
-        return ""
-    }
-    
-    open var filePath: String {
-        return ""
-    }
-    
-    open var fileName: String {
-        return ""
-    }
-    
-    open var extensionName: String {
-        return ""
-    }
-    
-    open var icons: [String : String] {
-        return [:]
-    }
-    
-    public required init?(){
-        
-        if UIFont.fontNames(forFamilyName: fontName).count == 0 {
-            guard registerFont(with: filePath) else {
-                return nil
-            }
-        }
-    }
-    
-    public static var `default`: IconFont? {
-        return IconFont.init()
-    }
-
-}
-
 public func registerFont(with filePath:String) -> Bool {
     guard let provider = CGDataProvider(filename: filePath) else {
         return false
@@ -69,3 +32,35 @@ public func registerFont(with filePath:String) -> Bool {
     let result = CTFontManagerRegisterGraphicsFont(font, nil)
     return result
 }
+
+
+public struct ZZExtension<Element> {
+    let base: Element
+    
+    init(base: Element) {
+        self.base = base
+    }
+}
+
+public protocol ZZExtensible {
+    associatedtype T
+    var zz: ZZExtension<T>{get}
+    static var zz: ZZExtension<T>.Type {get}
+}
+
+extension ZZExtensible {
+    public var zz: ZZExtension<Self> {
+        get{
+            return ZZExtension(base: self)
+        }
+    }
+    
+    public static var zz: ZZExtension<Self>.Type {
+        get{
+            return ZZExtension<Self>.self
+        }
+    }
+}
+
+extension UIImage: ZZExtensible {}
+extension UIImageView: ZZExtensible {}

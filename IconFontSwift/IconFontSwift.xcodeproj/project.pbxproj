@@ -7,18 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA7093DB1E53E65A004674F3 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7093DA1E53E65A004674F3 /* UIImageExtension.swift */; };
+		DA7093DD1E53E66F004674F3 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7093DC1E53E66F004674F3 /* UIImageViewExtension.swift */; };
 		DAB07A751E52D8DC00010BA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB07A741E52D8DC00010BA4 /* AppDelegate.swift */; };
 		DAB07A771E52D8DC00010BA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB07A761E52D8DC00010BA4 /* ViewController.swift */; };
 		DAB07A7A1E52D8DC00010BA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB07A781E52D8DC00010BA4 /* Main.storyboard */; };
 		DAB07A7C1E52D8DC00010BA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB07A7B1E52D8DC00010BA4 /* Assets.xcassets */; };
 		DAB07A7F1E52D8DC00010BA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB07A7D1E52D8DC00010BA4 /* LaunchScreen.storyboard */; };
 		DAB07A871E52D90200010BA4 /* ZZIconFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DAB07A861E52D90200010BA4 /* ZZIconFont.ttf */; };
-		DAB07A8B1E52DBFA00010BA4 /* IconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB07A8A1E52DBFA00010BA4 /* IconFont.swift */; };
 		DAB07A8D1E52E06800010BA4 /* IconFontSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB07A8C1E52E06800010BA4 /* IconFontSwift.swift */; };
 		DAB07A8F1E52FB5D00010BA4 /* MyFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB07A8E1E52FB5D00010BA4 /* MyFont.swift */; };
+		DABE56C31E540242004A63EE /* IconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABE56C21E540242004A63EE /* IconFont.swift */; };
+		DABE56C51E544489004A63EE /* IFSiconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DABE56C41E544489004A63EE /* IFSiconfont.ttf */; };
+		DABE56D11E5452CB004A63EE /* demo.css in Resources */ = {isa = PBXBuildFile; fileRef = DABE56C71E5452CB004A63EE /* demo.css */; };
+		DABE56D21E5452CB004A63EE /* demo_fontclass.html in Resources */ = {isa = PBXBuildFile; fileRef = DABE56C81E5452CB004A63EE /* demo_fontclass.html */; };
+		DABE56D31E5452CB004A63EE /* demo_symbol.html in Resources */ = {isa = PBXBuildFile; fileRef = DABE56C91E5452CB004A63EE /* demo_symbol.html */; };
+		DABE56D41E5452CB004A63EE /* demo_unicode.html in Resources */ = {isa = PBXBuildFile; fileRef = DABE56CA1E5452CB004A63EE /* demo_unicode.html */; };
+		DABE56D51E5452CB004A63EE /* iconfont.css in Resources */ = {isa = PBXBuildFile; fileRef = DABE56CB1E5452CB004A63EE /* iconfont.css */; };
+		DABE56D61E5452CB004A63EE /* iconfont.eot in Resources */ = {isa = PBXBuildFile; fileRef = DABE56CC1E5452CB004A63EE /* iconfont.eot */; };
+		DABE56D71E5452CB004A63EE /* iconfont.js in Resources */ = {isa = PBXBuildFile; fileRef = DABE56CD1E5452CB004A63EE /* iconfont.js */; };
+		DABE56D81E5452CB004A63EE /* iconfont.svg in Resources */ = {isa = PBXBuildFile; fileRef = DABE56CE1E5452CB004A63EE /* iconfont.svg */; };
+		DABE56D91E5452CB004A63EE /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DABE56CF1E5452CB004A63EE /* iconfont.ttf */; };
+		DABE56DA1E5452CB004A63EE /* iconfont.woff in Resources */ = {isa = PBXBuildFile; fileRef = DABE56D01E5452CB004A63EE /* iconfont.woff */; };
+		DABE56DE1E545B7E004A63EE /* demo02.png in Resources */ = {isa = PBXBuildFile; fileRef = DABE56DD1E545B7E004A63EE /* demo02.png */; };
+		DABE56E01E545C18004A63EE /* demo03.png in Resources */ = {isa = PBXBuildFile; fileRef = DABE56DF1E545C18004A63EE /* demo03.png */; };
+		DABE56E21E545D91004A63EE /* demo01.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DABE56E11E545D91004A63EE /* demo01.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA7093DA1E53E65A004674F3 /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		DA7093DC1E53E66F004674F3 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
 		DAB07A711E52D8DC00010BA4 /* IconFontSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IconFontSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAB07A741E52D8DC00010BA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAB07A761E52D8DC00010BA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -27,9 +45,23 @@
 		DAB07A7E1E52D8DC00010BA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DAB07A801E52D8DC00010BA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAB07A861E52D90200010BA4 /* ZZIconFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ZZIconFont.ttf; sourceTree = "<group>"; };
-		DAB07A8A1E52DBFA00010BA4 /* IconFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconFont.swift; sourceTree = "<group>"; };
 		DAB07A8C1E52E06800010BA4 /* IconFontSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconFontSwift.swift; sourceTree = "<group>"; };
 		DAB07A8E1E52FB5D00010BA4 /* MyFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyFont.swift; sourceTree = "<group>"; };
+		DABE56C21E540242004A63EE /* IconFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconFont.swift; sourceTree = "<group>"; };
+		DABE56C41E544489004A63EE /* IFSiconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IFSiconfont.ttf; sourceTree = "<group>"; };
+		DABE56C71E5452CB004A63EE /* demo.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = demo.css; sourceTree = "<group>"; };
+		DABE56C81E5452CB004A63EE /* demo_fontclass.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = demo_fontclass.html; sourceTree = "<group>"; };
+		DABE56C91E5452CB004A63EE /* demo_symbol.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = demo_symbol.html; sourceTree = "<group>"; };
+		DABE56CA1E5452CB004A63EE /* demo_unicode.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = demo_unicode.html; sourceTree = "<group>"; };
+		DABE56CB1E5452CB004A63EE /* iconfont.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = iconfont.css; sourceTree = "<group>"; };
+		DABE56CC1E5452CB004A63EE /* iconfont.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.eot; sourceTree = "<group>"; };
+		DABE56CD1E5452CB004A63EE /* iconfont.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = iconfont.js; sourceTree = "<group>"; };
+		DABE56CE1E5452CB004A63EE /* iconfont.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = iconfont.svg; sourceTree = "<group>"; };
+		DABE56CF1E5452CB004A63EE /* iconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.ttf; sourceTree = "<group>"; };
+		DABE56D01E5452CB004A63EE /* iconfont.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.woff; sourceTree = "<group>"; };
+		DABE56DD1E545B7E004A63EE /* demo02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo02.png; sourceTree = "<group>"; };
+		DABE56DF1E545C18004A63EE /* demo03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo03.png; sourceTree = "<group>"; };
+		DABE56E11E545D91004A63EE /* demo01.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = demo01.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +94,7 @@
 		DAB07A731E52D8DC00010BA4 /* IconFontSwift */ = {
 			isa = PBXGroup;
 			children = (
+				DABE56C61E5452CB004A63EE /* fontHtmlSource */,
 				DAB07A881E52DADB00010BA4 /* Source */,
 				DAB07A861E52D90200010BA4 /* ZZIconFont.ttf */,
 				DAB07A741E52D8DC00010BA4 /* AppDelegate.swift */,
@@ -71,6 +104,9 @@
 				DAB07A7B1E52D8DC00010BA4 /* Assets.xcassets */,
 				DAB07A7D1E52D8DC00010BA4 /* LaunchScreen.storyboard */,
 				DAB07A801E52D8DC00010BA4 /* Info.plist */,
+				DABE56E11E545D91004A63EE /* demo01.jpeg */,
+				DABE56DD1E545B7E004A63EE /* demo02.png */,
+				DABE56DF1E545C18004A63EE /* demo03.png */,
 			);
 			path = IconFontSwift;
 			sourceTree = "<group>";
@@ -78,10 +114,30 @@
 		DAB07A881E52DADB00010BA4 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				DABE56C41E544489004A63EE /* IFSiconfont.ttf */,
 				DAB07A8C1E52E06800010BA4 /* IconFontSwift.swift */,
-				DAB07A8A1E52DBFA00010BA4 /* IconFont.swift */,
+				DABE56C21E540242004A63EE /* IconFont.swift */,
+				DA7093DA1E53E65A004674F3 /* UIImageExtension.swift */,
+				DA7093DC1E53E66F004674F3 /* UIImageViewExtension.swift */,
 			);
 			path = Source;
+			sourceTree = "<group>";
+		};
+		DABE56C61E5452CB004A63EE /* fontHtmlSource */ = {
+			isa = PBXGroup;
+			children = (
+				DABE56C71E5452CB004A63EE /* demo.css */,
+				DABE56C81E5452CB004A63EE /* demo_fontclass.html */,
+				DABE56C91E5452CB004A63EE /* demo_symbol.html */,
+				DABE56CA1E5452CB004A63EE /* demo_unicode.html */,
+				DABE56CB1E5452CB004A63EE /* iconfont.css */,
+				DABE56CC1E5452CB004A63EE /* iconfont.eot */,
+				DABE56CD1E5452CB004A63EE /* iconfont.js */,
+				DABE56CE1E5452CB004A63EE /* iconfont.svg */,
+				DABE56CF1E5452CB004A63EE /* iconfont.ttf */,
+				DABE56D01E5452CB004A63EE /* iconfont.woff */,
+			);
+			path = fontHtmlSource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,10 +200,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DABE56E21E545D91004A63EE /* demo01.jpeg in Resources */,
 				DAB07A7F1E52D8DC00010BA4 /* LaunchScreen.storyboard in Resources */,
 				DAB07A7C1E52D8DC00010BA4 /* Assets.xcassets in Resources */,
+				DABE56DA1E5452CB004A63EE /* iconfont.woff in Resources */,
+				DABE56D91E5452CB004A63EE /* iconfont.ttf in Resources */,
+				DABE56D11E5452CB004A63EE /* demo.css in Resources */,
+				DABE56D21E5452CB004A63EE /* demo_fontclass.html in Resources */,
+				DABE56E01E545C18004A63EE /* demo03.png in Resources */,
+				DABE56D41E5452CB004A63EE /* demo_unicode.html in Resources */,
 				DAB07A871E52D90200010BA4 /* ZZIconFont.ttf in Resources */,
+				DABE56D71E5452CB004A63EE /* iconfont.js in Resources */,
+				DABE56D81E5452CB004A63EE /* iconfont.svg in Resources */,
+				DABE56D31E5452CB004A63EE /* demo_symbol.html in Resources */,
+				DABE56DE1E545B7E004A63EE /* demo02.png in Resources */,
+				DABE56C51E544489004A63EE /* IFSiconfont.ttf in Resources */,
 				DAB07A7A1E52D8DC00010BA4 /* Main.storyboard in Resources */,
+				DABE56D61E5452CB004A63EE /* iconfont.eot in Resources */,
+				DABE56D51E5452CB004A63EE /* iconfont.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,8 +230,10 @@
 			files = (
 				DAB07A8F1E52FB5D00010BA4 /* MyFont.swift in Sources */,
 				DAB07A771E52D8DC00010BA4 /* ViewController.swift in Sources */,
-				DAB07A8B1E52DBFA00010BA4 /* IconFont.swift in Sources */,
+				DA7093DD1E53E66F004674F3 /* UIImageViewExtension.swift in Sources */,
+				DABE56C31E540242004A63EE /* IconFont.swift in Sources */,
 				DAB07A751E52D8DC00010BA4 /* AppDelegate.swift in Sources */,
+				DA7093DB1E53E65A004674F3 /* UIImageExtension.swift in Sources */,
 				DAB07A8D1E52E06800010BA4 /* IconFontSwift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,6 +396,7 @@
 				DAB07A851E52D8DC00010BA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
