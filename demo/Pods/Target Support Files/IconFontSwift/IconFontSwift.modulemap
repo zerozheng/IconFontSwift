@@ -1,0 +1,6 @@
+framework module IconFontSwift {
+  umbrella header "IconFontSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import IconFontSwift
 
 class MyFont: IconFont {
     

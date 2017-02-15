@@ -7,37 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DA7093DB1E53E65A004674F3 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7093DA1E53E65A004674F3 /* UIImageExtension.swift */; };
-		DA7093DD1E53E66F004674F3 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7093DC1E53E66F004674F3 /* UIImageViewExtension.swift */; };
 		DAB07A751E52D8DC00010BA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB07A741E52D8DC00010BA4 /* AppDelegate.swift */; };
 		DAB07A771E52D8DC00010BA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB07A761E52D8DC00010BA4 /* ViewController.swift */; };
 		DAB07A7A1E52D8DC00010BA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB07A781E52D8DC00010BA4 /* Main.storyboard */; };
 		DAB07A7C1E52D8DC00010BA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB07A7B1E52D8DC00010BA4 /* Assets.xcassets */; };
 		DAB07A7F1E52D8DC00010BA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB07A7D1E52D8DC00010BA4 /* LaunchScreen.storyboard */; };
 		DAB07A871E52D90200010BA4 /* ZZIconFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DAB07A861E52D90200010BA4 /* ZZIconFont.ttf */; };
-		DAB07A8D1E52E06800010BA4 /* IconFontSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB07A8C1E52E06800010BA4 /* IconFontSwift.swift */; };
 		DAB07A8F1E52FB5D00010BA4 /* MyFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB07A8E1E52FB5D00010BA4 /* MyFont.swift */; };
-		DABE56C31E540242004A63EE /* IconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABE56C21E540242004A63EE /* IconFont.swift */; };
-		DABE56C51E544489004A63EE /* IFSiconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DABE56C41E544489004A63EE /* IFSiconfont.ttf */; };
-		DABE56D11E5452CB004A63EE /* demo.css in Resources */ = {isa = PBXBuildFile; fileRef = DABE56C71E5452CB004A63EE /* demo.css */; };
-		DABE56D21E5452CB004A63EE /* demo_fontclass.html in Resources */ = {isa = PBXBuildFile; fileRef = DABE56C81E5452CB004A63EE /* demo_fontclass.html */; };
-		DABE56D31E5452CB004A63EE /* demo_symbol.html in Resources */ = {isa = PBXBuildFile; fileRef = DABE56C91E5452CB004A63EE /* demo_symbol.html */; };
-		DABE56D41E5452CB004A63EE /* demo_unicode.html in Resources */ = {isa = PBXBuildFile; fileRef = DABE56CA1E5452CB004A63EE /* demo_unicode.html */; };
-		DABE56D51E5452CB004A63EE /* iconfont.css in Resources */ = {isa = PBXBuildFile; fileRef = DABE56CB1E5452CB004A63EE /* iconfont.css */; };
-		DABE56D61E5452CB004A63EE /* iconfont.eot in Resources */ = {isa = PBXBuildFile; fileRef = DABE56CC1E5452CB004A63EE /* iconfont.eot */; };
-		DABE56D71E5452CB004A63EE /* iconfont.js in Resources */ = {isa = PBXBuildFile; fileRef = DABE56CD1E5452CB004A63EE /* iconfont.js */; };
-		DABE56D81E5452CB004A63EE /* iconfont.svg in Resources */ = {isa = PBXBuildFile; fileRef = DABE56CE1E5452CB004A63EE /* iconfont.svg */; };
-		DABE56D91E5452CB004A63EE /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DABE56CF1E5452CB004A63EE /* iconfont.ttf */; };
-		DABE56DA1E5452CB004A63EE /* iconfont.woff in Resources */ = {isa = PBXBuildFile; fileRef = DABE56D01E5452CB004A63EE /* iconfont.woff */; };
-		DABE56DE1E545B7E004A63EE /* demo02.png in Resources */ = {isa = PBXBuildFile; fileRef = DABE56DD1E545B7E004A63EE /* demo02.png */; };
-		DABE56E01E545C18004A63EE /* demo03.png in Resources */ = {isa = PBXBuildFile; fileRef = DABE56DF1E545C18004A63EE /* demo03.png */; };
-		DABE56E21E545D91004A63EE /* demo01.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DABE56E11E545D91004A63EE /* demo01.jpeg */; };
+		E54841E4DBC25D7DA5B13D58 /* Pods_demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 434E02A81E8258BF8CB102C0 /* Pods_demo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DA7093DA1E53E65A004674F3 /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
-		DA7093DC1E53E66F004674F3 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
-		DAB07A711E52D8DC00010BA4 /* IconFontSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IconFontSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B0F12901A3D3A8F66F288D4 /* Pods-IconFontSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IconFontSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IconFontSwift/Pods-IconFontSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		2902D6F2D3A9DAF8ADC75ABA /* Pods-IconFontSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IconFontSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-IconFontSwift/Pods-IconFontSwift.release.xcconfig"; sourceTree = "<group>"; };
+		434E02A81E8258BF8CB102C0 /* Pods_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74F238EBBD4FD36E60918EDF /* Pods-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-demo/Pods-demo.release.xcconfig"; sourceTree = "<group>"; };
+		7E3CDE2A2231D81EDDC3BCDF /* Pods-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-demo/Pods-demo.debug.xcconfig"; sourceTree = "<group>"; };
+		91FBB94F9814210038BC4601 /* Pods_IconFontSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IconFontSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB07A711E52D8DC00010BA4 /* demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAB07A741E52D8DC00010BA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAB07A761E52D8DC00010BA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DAB07A791E52D8DC00010BA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -45,23 +32,7 @@
 		DAB07A7E1E52D8DC00010BA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DAB07A801E52D8DC00010BA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAB07A861E52D90200010BA4 /* ZZIconFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ZZIconFont.ttf; sourceTree = "<group>"; };
-		DAB07A8C1E52E06800010BA4 /* IconFontSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconFontSwift.swift; sourceTree = "<group>"; };
 		DAB07A8E1E52FB5D00010BA4 /* MyFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyFont.swift; sourceTree = "<group>"; };
-		DABE56C21E540242004A63EE /* IconFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconFont.swift; sourceTree = "<group>"; };
-		DABE56C41E544489004A63EE /* IFSiconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IFSiconfont.ttf; sourceTree = "<group>"; };
-		DABE56C71E5452CB004A63EE /* demo.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = demo.css; sourceTree = "<group>"; };
-		DABE56C81E5452CB004A63EE /* demo_fontclass.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = demo_fontclass.html; sourceTree = "<group>"; };
-		DABE56C91E5452CB004A63EE /* demo_symbol.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = demo_symbol.html; sourceTree = "<group>"; };
-		DABE56CA1E5452CB004A63EE /* demo_unicode.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = demo_unicode.html; sourceTree = "<group>"; };
-		DABE56CB1E5452CB004A63EE /* iconfont.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = iconfont.css; sourceTree = "<group>"; };
-		DABE56CC1E5452CB004A63EE /* iconfont.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.eot; sourceTree = "<group>"; };
-		DABE56CD1E5452CB004A63EE /* iconfont.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = iconfont.js; sourceTree = "<group>"; };
-		DABE56CE1E5452CB004A63EE /* iconfont.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = iconfont.svg; sourceTree = "<group>"; };
-		DABE56CF1E5452CB004A63EE /* iconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.ttf; sourceTree = "<group>"; };
-		DABE56D01E5452CB004A63EE /* iconfont.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.woff; sourceTree = "<group>"; };
-		DABE56DD1E545B7E004A63EE /* demo02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo02.png; sourceTree = "<group>"; };
-		DABE56DF1E545C18004A63EE /* demo03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo03.png; sourceTree = "<group>"; };
-		DABE56E11E545D91004A63EE /* demo01.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = demo01.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,33 +40,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E54841E4DBC25D7DA5B13D58 /* Pods_demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		033EB1D80FE3C379D097713A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B0F12901A3D3A8F66F288D4 /* Pods-IconFontSwift.debug.xcconfig */,
+				2902D6F2D3A9DAF8ADC75ABA /* Pods-IconFontSwift.release.xcconfig */,
+				7E3CDE2A2231D81EDDC3BCDF /* Pods-demo.debug.xcconfig */,
+				74F238EBBD4FD36E60918EDF /* Pods-demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DAB07A681E52D8DB00010BA4 = {
 			isa = PBXGroup;
 			children = (
-				DAB07A731E52D8DC00010BA4 /* IconFontSwift */,
+				DAB07A731E52D8DC00010BA4 /* demo */,
 				DAB07A721E52D8DC00010BA4 /* Products */,
+				033EB1D80FE3C379D097713A /* Pods */,
+				DF637B0F72550C06E425CE86 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		DAB07A721E52D8DC00010BA4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DAB07A711E52D8DC00010BA4 /* IconFontSwift.app */,
+				DAB07A711E52D8DC00010BA4 /* demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DAB07A731E52D8DC00010BA4 /* IconFontSwift */ = {
+		DAB07A731E52D8DC00010BA4 /* demo */ = {
 			isa = PBXGroup;
 			children = (
-				DABE56C61E5452CB004A63EE /* fontHtmlSource */,
-				DAB07A881E52DADB00010BA4 /* Source */,
 				DAB07A861E52D90200010BA4 /* ZZIconFont.ttf */,
 				DAB07A741E52D8DC00010BA4 /* AppDelegate.swift */,
 				DAB07A761E52D8DC00010BA4 /* ViewController.swift */,
@@ -104,61 +87,40 @@
 				DAB07A7B1E52D8DC00010BA4 /* Assets.xcassets */,
 				DAB07A7D1E52D8DC00010BA4 /* LaunchScreen.storyboard */,
 				DAB07A801E52D8DC00010BA4 /* Info.plist */,
-				DABE56E11E545D91004A63EE /* demo01.jpeg */,
-				DABE56DD1E545B7E004A63EE /* demo02.png */,
-				DABE56DF1E545C18004A63EE /* demo03.png */,
 			);
-			path = IconFontSwift;
+			path = demo;
 			sourceTree = "<group>";
 		};
-		DAB07A881E52DADB00010BA4 /* Source */ = {
+		DF637B0F72550C06E425CE86 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DABE56C41E544489004A63EE /* IFSiconfont.ttf */,
-				DAB07A8C1E52E06800010BA4 /* IconFontSwift.swift */,
-				DABE56C21E540242004A63EE /* IconFont.swift */,
-				DA7093DA1E53E65A004674F3 /* UIImageExtension.swift */,
-				DA7093DC1E53E66F004674F3 /* UIImageViewExtension.swift */,
+				91FBB94F9814210038BC4601 /* Pods_IconFontSwift.framework */,
+				434E02A81E8258BF8CB102C0 /* Pods_demo.framework */,
 			);
-			name = Source;
-			path = ../../Source;
-			sourceTree = "<group>";
-		};
-		DABE56C61E5452CB004A63EE /* fontHtmlSource */ = {
-			isa = PBXGroup;
-			children = (
-				DABE56C71E5452CB004A63EE /* demo.css */,
-				DABE56C81E5452CB004A63EE /* demo_fontclass.html */,
-				DABE56C91E5452CB004A63EE /* demo_symbol.html */,
-				DABE56CA1E5452CB004A63EE /* demo_unicode.html */,
-				DABE56CB1E5452CB004A63EE /* iconfont.css */,
-				DABE56CC1E5452CB004A63EE /* iconfont.eot */,
-				DABE56CD1E5452CB004A63EE /* iconfont.js */,
-				DABE56CE1E5452CB004A63EE /* iconfont.svg */,
-				DABE56CF1E5452CB004A63EE /* iconfont.ttf */,
-				DABE56D01E5452CB004A63EE /* iconfont.woff */,
-			);
-			path = fontHtmlSource;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DAB07A701E52D8DC00010BA4 /* IconFontSwift */ = {
+		DAB07A701E52D8DC00010BA4 /* demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DAB07A831E52D8DC00010BA4 /* Build configuration list for PBXNativeTarget "IconFontSwift" */;
+			buildConfigurationList = DAB07A831E52D8DC00010BA4 /* Build configuration list for PBXNativeTarget "demo" */;
 			buildPhases = (
+				D08D4114CAC1DB5ABA629501 /* [CP] Check Pods Manifest.lock */,
 				DAB07A6D1E52D8DC00010BA4 /* Sources */,
 				DAB07A6E1E52D8DC00010BA4 /* Frameworks */,
 				DAB07A6F1E52D8DC00010BA4 /* Resources */,
+				F593D5618849FBEDB9ACDEB5 /* [CP] Embed Pods Frameworks */,
+				C15C8836B93EBA8217620A98 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = IconFontSwift;
+			name = demo;
 			productName = IconFontSwift;
-			productReference = DAB07A711E52D8DC00010BA4 /* IconFontSwift.app */;
+			productReference = DAB07A711E52D8DC00010BA4 /* demo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -178,7 +140,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DAB07A6C1E52D8DB00010BA4 /* Build configuration list for PBXProject "IconFontSwift" */;
+			buildConfigurationList = DAB07A6C1E52D8DB00010BA4 /* Build configuration list for PBXProject "demo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -191,7 +153,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DAB07A701E52D8DC00010BA4 /* IconFontSwift */,
+				DAB07A701E52D8DC00010BA4 /* demo */,
 			);
 		};
 /* End PBXProject section */
@@ -201,28 +163,62 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DABE56E21E545D91004A63EE /* demo01.jpeg in Resources */,
 				DAB07A7F1E52D8DC00010BA4 /* LaunchScreen.storyboard in Resources */,
 				DAB07A7C1E52D8DC00010BA4 /* Assets.xcassets in Resources */,
-				DABE56DA1E5452CB004A63EE /* iconfont.woff in Resources */,
-				DABE56D91E5452CB004A63EE /* iconfont.ttf in Resources */,
-				DABE56D11E5452CB004A63EE /* demo.css in Resources */,
-				DABE56D21E5452CB004A63EE /* demo_fontclass.html in Resources */,
-				DABE56E01E545C18004A63EE /* demo03.png in Resources */,
-				DABE56D41E5452CB004A63EE /* demo_unicode.html in Resources */,
 				DAB07A871E52D90200010BA4 /* ZZIconFont.ttf in Resources */,
-				DABE56D71E5452CB004A63EE /* iconfont.js in Resources */,
-				DABE56D81E5452CB004A63EE /* iconfont.svg in Resources */,
-				DABE56D31E5452CB004A63EE /* demo_symbol.html in Resources */,
-				DABE56DE1E545B7E004A63EE /* demo02.png in Resources */,
-				DABE56C51E544489004A63EE /* IFSiconfont.ttf in Resources */,
 				DAB07A7A1E52D8DC00010BA4 /* Main.storyboard in Resources */,
-				DABE56D61E5452CB004A63EE /* iconfont.eot in Resources */,
-				DABE56D51E5452CB004A63EE /* iconfont.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C15C8836B93EBA8217620A98 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-demo/Pods-demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D08D4114CAC1DB5ABA629501 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F593D5618849FBEDB9ACDEB5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-demo/Pods-demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DAB07A6D1E52D8DC00010BA4 /* Sources */ = {
@@ -231,11 +227,7 @@
 			files = (
 				DAB07A8F1E52FB5D00010BA4 /* MyFont.swift in Sources */,
 				DAB07A771E52D8DC00010BA4 /* ViewController.swift in Sources */,
-				DA7093DD1E53E66F004674F3 /* UIImageViewExtension.swift in Sources */,
-				DABE56C31E540242004A63EE /* IconFont.swift in Sources */,
 				DAB07A751E52D8DC00010BA4 /* AppDelegate.swift in Sources */,
-				DA7093DB1E53E65A004674F3 /* UIImageExtension.swift in Sources */,
-				DAB07A8D1E52E06800010BA4 /* IconFontSwift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,10 +346,11 @@
 		};
 		DAB07A841E52D8DC00010BA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E3CDE2A2231D81EDDC3BCDF /* Pods-demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6N947FP7VQ;
-				INFOPLIST_FILE = IconFontSwift/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oralCare.IconFontSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -367,10 +360,11 @@
 		};
 		DAB07A851E52D8DC00010BA4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74F238EBBD4FD36E60918EDF /* Pods-demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6N947FP7VQ;
-				INFOPLIST_FILE = IconFontSwift/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oralCare.IconFontSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -381,7 +375,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DAB07A6C1E52D8DB00010BA4 /* Build configuration list for PBXProject "IconFontSwift" */ = {
+		DAB07A6C1E52D8DB00010BA4 /* Build configuration list for PBXProject "demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DAB07A811E52D8DC00010BA4 /* Debug */,
@@ -390,7 +384,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DAB07A831E52D8DC00010BA4 /* Build configuration list for PBXNativeTarget "IconFontSwift" */ = {
+		DAB07A831E52D8DC00010BA4 /* Build configuration list for PBXNativeTarget "demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DAB07A841E52D8DC00010BA4 /* Debug */,

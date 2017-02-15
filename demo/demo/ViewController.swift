@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import IconFontSwift
 
 class ViewController: UIViewController {
 
