@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "IconFontSwift"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "a simple framework for IconFont"
   s.description  = <<-DESC
 a simple framework for IconFont, which include a build-in font.
