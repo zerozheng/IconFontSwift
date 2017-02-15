@@ -1,12 +1,12 @@
 PODS:
-  - IconFontSwift (0.0.1)
+  - IconFontSwift (0.0.2)
 
 DEPENDENCIES:
-  - IconFontSwift (~> 0.0.1)
+  - IconFontSwift (~> 0.0.2)
 
 SPEC CHECKSUMS:
-  IconFontSwift: 860ec44af351f3c96ddfc6f68e7e2b4a8d62026b
+  IconFontSwift: c8c9de3d08dcfc4617192cdbe54cff8faf43a2ae
 
-PODFILE CHECKSUM: cc728d5485a5b192dc0c7dfd95a7cdc3772cb5c9
+PODFILE CHECKSUM: 5773d62f6df81a9ea7c151459823dfed748dcd94
 
 COCOAPODS: 1.1.0.rc.3

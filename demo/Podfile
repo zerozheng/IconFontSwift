@@ -2,6 +2,6 @@ use_frameworks!
 
 target 'demo' do
     platform :ios, '8.0'
-    pod 'IconFontSwift', '~> 0.0.1'
+    pod 'IconFontSwift', '~> 0.0.2'
 end
 

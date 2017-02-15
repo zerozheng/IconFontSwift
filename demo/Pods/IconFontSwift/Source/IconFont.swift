@@ -16,7 +16,8 @@ open class IconFont: IconFontCompatible {
     }
     
     open var filePath: String {
-        return Bundle.main.path(forResource: fileName, ofType: extensionName) ?? ""
+        let bundle = Bundle(identifier: "org.cocoapods.IconFontSwift")
+        return bundle?.path(forResource: fileName, ofType: extensionName) ?? ""
     }
     
     open var fileName: String {
