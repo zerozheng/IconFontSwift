@@ -120,7 +120,8 @@
 				DA7093DA1E53E65A004674F3 /* UIImageExtension.swift */,
 				DA7093DC1E53E66F004674F3 /* UIImageViewExtension.swift */,
 			);
-			path = Source;
+			name = Source;
+			path = ../../Source;
 			sourceTree = "<group>";
 		};
 		DABE56C61E5452CB004A63EE /* fontHtmlSource */ = {

@@ -12,6 +12,7 @@ a simple framework for IconFont, which include a build-in font.
   s.author       = "zero"
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/zerozheng/IconFontSwift.git", :tag => s.version }
-  s.source_files  = "Source"
+  s.source_files  = "Source/*.{swift}"
+  s.resource  = "Source/*.{ttf}"
 
 end
