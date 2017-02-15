@@ -10,9 +10,9 @@
 
 本框架内建了一个小字体，总共八十个图标，如果想要查看里面的字体（图标），可以在`**浏览器**`中打开demo工程`fontHtmlSource`文件夹里面的三个`html`文件查看，不仅可以找到`unicode`, 而且还可以找到`字体标识`。如图：
 
-<img src="https://github.com/zerozheng/IconFontSwift/blob/master/Resources/demo01.jpeg" alt="IconFontSwift"/ width = 250>
-<img src="https://github.com/zerozheng/IconFontSwift/blob/master/Resources/demo02.png" alt="IconFontSwift"/ width = 250>
-<img src="https://github.com/zerozheng/IconFontSwift/blob/master/Resources/demo03.png" alt="IconFontSwift"/ width = 250>
+<img src="https://github.com/zerozheng/IconFontSwift/blob/master/IconFontSwift/IconFontSwift/demo01.jpeg" alt="IconFontSwift"/ width = 250>
+<img src="https://github.com/zerozheng/IconFontSwift/blob/master/IconFontSwift/IconFontSwift/demo02.png" alt="IconFontSwift"/ width = 250>
+<img src="https://github.com/zerozheng/IconFontSwift/blob/master/IconFontSwift/IconFontSwift/demo03.png" alt="IconFontSwift"/ width = 250>
 
 
 使用的时候可以使用内建字体库，也可以使用自定义的字体库。
