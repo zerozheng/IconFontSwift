@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-public extension ZZExtension where Element: UIImage {
+public extension IFExtension where Element: UIImage {
     
     public static func image(withText text: String?, fontName: String, fontSize: CGFloat, imageSize: CGFloat, color: UIColor = UIColor.black, backGroundColor: UIColor? = nil, offset: CGPoint = CGPoint.zero) -> UIImage? {
         

@@ -34,7 +34,7 @@ public func registerFont(with filePath:String) -> Bool {
 }
 
 
-public struct ZZExtension<Element> {
+public struct IFExtension<Element> {
     let base: Element
     
     init(base: Element) {
@@ -42,25 +42,25 @@ public struct ZZExtension<Element> {
     }
 }
 
-public protocol ZZExtensible {
+public protocol IFExtensible {
     associatedtype T
-    var zz: ZZExtension<T>{get}
-    static var zz: ZZExtension<T>.Type {get}
+    var `if`: IFExtension<T>{get}
+    static var `if`: IFExtension<T>.Type {get}
 }
 
-extension ZZExtensible {
-    public var zz: ZZExtension<Self> {
+extension IFExtensible {
+    public var `if`: IFExtension<Self> {
         get{
-            return ZZExtension(base: self)
+            return IFExtension(base: self)
         }
     }
     
-    public static var zz: ZZExtension<Self>.Type {
+    public static var `if`: IFExtension<Self>.Type {
         get{
-            return ZZExtension<Self>.self
+            return IFExtension<Self>.self
         }
     }
 }
 
-extension UIImage: ZZExtensible {}
-extension UIImageView: ZZExtensible {}
+extension UIImage: IFExtensible {}
+extension UIImageView: IFExtensible {}

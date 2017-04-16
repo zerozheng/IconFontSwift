@@ -32,10 +32,10 @@ class ViewController: UIViewController {
         self.topLabel.text = "\(myfont.icons["time"] ?? "") 测试test"
         
         
-        self.imageView.image = UIImage.zz.image(withText: myfont.icons["phone"], fontName: myfont.fontName, fontSize: 200, imageSize: 200, color: UIColor.green, backGroundColor: UIColor.purple)
+        self.imageView.image = UIImage.`if`.image(withText: myfont.icons["phone"], fontName: myfont.fontName, fontSize: 200, imageSize: 200, color: UIColor.green, backGroundColor: UIColor.purple)
         
         
-        self.bottomImageView.zz.asyncImage(withText: myfont.icons["delete_fill"], fontName: myfont.fontName, fontSize: 100, imageSize: 100, color: UIColor.green, backGroundColor: UIColor.purple)
+        self.bottomImageView.`if`.asyncImage(withText: myfont.icons["delete_fill"], fontName: myfont.fontName, fontSize: 100, imageSize: 100, color: UIColor.green, backGroundColor: UIColor.purple)
         
     }
 
