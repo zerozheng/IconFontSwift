@@ -1,6 +1,6 @@
 #描述
 
-一个简单易用的 iconfont 字体库，swift3 版本。从此不用设计师切图（切图还是要的，只是少了适配的问题，1x、2x、3x ...），同时app也瘦身了。
+一个简单易用的 iconfont 字体库，swift3 版本请用1.0.0， swift4 版本请用2.0.0。从此不用设计师切图（切图还是要的，只是少了适配的问题，1x、2x、3x ...），同时app也瘦身了。
 
 ![License](https://img.shields.io/cocoapods/l/ImagePicker.svg?style=flat)
 ![Platform](https://img.shields.io/cocoapods/p/ImagePicker.svg?style=flat)
@@ -106,7 +106,12 @@
 
 ## 集成
 ```
-pod 'IconFontSwift',    '~> 0.0.2'
+use_frameworks!
+platform :ios, '8.0'
+
+target 'Your-Target-Name' do
+    pod 'IconFontSwift',    '~> 2.0.0'
+end
 ```
 
 

@@ -21,9 +21,9 @@ public extension IFExtension where Element: UIImage {
         paragraph.alignment = .center
         
         let attributes = [
-            NSForegroundColorAttributeName: color,
-            NSParagraphStyleAttributeName: paragraph,
-            NSFontAttributeName: font
+            NSAttributedStringKey.foregroundColor: color,
+            NSAttributedStringKey.paragraphStyle: paragraph,
+            NSAttributedStringKey.font: font
         ]
         
         UIGraphicsBeginImageContextWithOptions(CGSize(width: imageSize, height: imageSize), false, 0)
@@ -45,3 +45,4 @@ public extension IFExtension where Element: UIImage {
     }
     
 }
+

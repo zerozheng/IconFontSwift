@@ -28,7 +28,7 @@ public func registerFont(with filePath:String) -> Bool {
         return false
     }
     
-    let font = CGFont(provider)
+    let font = CGFont(provider)!
     let result = CTFontManagerRegisterGraphicsFont(font, nil)
     return result
 }
